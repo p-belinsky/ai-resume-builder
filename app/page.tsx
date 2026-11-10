@@ -132,11 +132,11 @@ export default function Home() {
   return (
     <div className="app-shell" id="feed">
       <aside className="sidebar">
-        <a className="brand" href="#feed" aria-label="muse home">
+        <a className="brand" href="#feed" aria-label="Glimpse home">
           <span className="brand-mark">
             <Icon name="sparkle" />
           </span>
-          <span className="brand-word">muse<span>.</span></span>
+          <span className="brand-word">glimpse<span>.</span></span>
         </a>
 
         <a className="create-link" href="#share">
@@ -181,9 +181,9 @@ export default function Home() {
       </aside>
 
       <header className="mobile-header">
-        <a className="brand" href="#feed" aria-label="muse home">
+        <a className="brand" href="#feed" aria-label="Glimpse home">
           <span className="brand-mark"><Icon name="sparkle" /></span>
-          <span className="brand-word">muse<span>.</span></span>
+          <span className="brand-word">glimpse<span>.</span></span>
         </a>
         <div className="mobile-header-actions">
           <a href="#explore" aria-label="Explore"><Icon name="search" /></a>
@@ -341,7 +341,7 @@ export default function Home() {
                 </a>
                 <a className="suggestion" href="#profile">
                   <span className="avatar suggestion-avatar"><Image src="/images/avatar-mateo.jpg" alt="" fill sizes="42px" /></span>
-                  <span className="suggestion-copy"><strong>mateo.jpg</strong><span>New to muse</span></span>
+                  <span className="suggestion-copy"><strong>mateo.jpg</strong><span>New to Glimpse</span></span>
                   <span className="follow-link">Follow</span>
                 </a>
                 <a className="suggestion" href="#profile">
@@ -370,7 +370,7 @@ export default function Home() {
             </section>
 
             <footer className="sidebar-footer">
-              <a href="#feed">About</a><a href="#feed">Guidelines</a><a href="#feed">Privacy</a><span>© 2024 MUSE</span>
+              <a href="#feed">About</a><a href="#feed">Guidelines</a><a href="#feed">Privacy</a><span>© 2024 GLIMPSE</span>
             </footer>
           </aside>
         </div>
