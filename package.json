@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prebuild": "node -e \"require('fs').rmSync('app/page.tsx',{force:true})\""
   },
   "dependencies": {
     "next": "16.4.6",
